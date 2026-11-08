@@ -1,0 +1,158 @@
+edit_recursive  random4   n=3          0.002 ms  ops=35
+edit_table      random4   n=3          0.000 ms  ops=9
+edit_two_rows   random4   n=3          0.000 ms  ops=9
+edit_recursive  identical n=3          0.000 ms  ops=4
+edit_table      identical n=3          0.000 ms  ops=9
+edit_two_rows   identical n=3          0.000 ms  ops=9
+edit_recursive  disjoint  n=3          0.001 ms  ops=94
+edit_table      disjoint  n=3          0.000 ms  ops=9
+edit_two_rows   disjoint  n=3          0.000 ms  ops=9
+edit_recursive  random4   n=6          0.007 ms  ops=914
+edit_table      random4   n=6          0.000 ms  ops=36
+edit_two_rows   random4   n=6          0.000 ms  ops=36
+edit_recursive  identical n=6          0.000 ms  ops=7
+edit_table      identical n=6          0.000 ms  ops=36
+edit_two_rows   identical n=6          0.000 ms  ops=36
+edit_recursive  disjoint  n=6          0.092 ms  ops=13483
+edit_table      disjoint  n=6          0.000 ms  ops=36
+edit_two_rows   disjoint  n=6          0.000 ms  ops=36
+edit_recursive  random4   n=9          1.113 ms  ops=107101
+edit_table      random4   n=9          0.001 ms  ops=81
+edit_two_rows   random4   n=9          0.000 ms  ops=81
+edit_recursive  identical n=9          0.000 ms  ops=10
+edit_table      identical n=9          0.000 ms  ops=81
+edit_two_rows   identical n=9          0.000 ms  ops=81
+edit_recursive  disjoint  n=9          4.575 ms  ops=2193844
+edit_table      disjoint  n=9          0.001 ms  ops=81
+edit_two_rows   disjoint  n=9          0.000 ms  ops=81
+edit_recursive  random4   n=11         1.793 ms  ops=709785
+edit_table      random4   n=11         0.001 ms  ops=121
+edit_two_rows   random4   n=11         0.000 ms  ops=121
+edit_recursive  identical n=11         0.000 ms  ops=12
+edit_table      identical n=11         0.001 ms  ops=121
+edit_two_rows   identical n=11         0.000 ms  ops=121
+edit_recursive  disjoint  n=11       141.733 ms  ops=67570078
+edit_table      disjoint  n=11         0.001 ms  ops=121
+edit_two_rows   disjoint  n=11         0.001 ms  ops=121
+edit_recursive  random4   n=12        13.854 ms  ops=5479308
+edit_table      random4   n=12         0.001 ms  ops=144
+edit_two_rows   random4   n=12         0.000 ms  ops=144
+edit_recursive  identical n=12         0.000 ms  ops=13
+edit_table      identical n=12         0.003 ms  ops=144
+edit_two_rows   identical n=12         0.000 ms  ops=144
+edit_recursive  disjoint  n=12       820.623 ms  ops=377393953
+edit_table      disjoint  n=12         0.004 ms  ops=144
+edit_two_rows   disjoint  n=12         0.001 ms  ops=144
+edit_table      random4   n=250        0.246 ms  ops=62500
+edit_two_rows   random4   n=250        0.130 ms  ops=62500
+edit_table      identical n=250        0.164 ms  ops=62500
+edit_two_rows   identical n=250        0.123 ms  ops=62500
+edit_table      disjoint  n=250        0.246 ms  ops=62500
+edit_two_rows   disjoint  n=250        0.200 ms  ops=62500
+edit_table      random4   n=500        0.562 ms  ops=250000
+edit_two_rows   random4   n=500        0.484 ms  ops=250000
+edit_table      identical n=500        0.535 ms  ops=250000
+edit_two_rows   identical n=500        0.482 ms  ops=250000
+edit_table      disjoint  n=500        0.952 ms  ops=250000
+edit_two_rows   disjoint  n=500        0.824 ms  ops=250000
+edit_table      random4   n=1000       2.231 ms  ops=1000000
+edit_two_rows   random4   n=1000       1.946 ms  ops=1000000
+edit_table      identical n=1000       2.176 ms  ops=1000000
+edit_two_rows   identical n=1000       1.937 ms  ops=1000000
+edit_table      disjoint  n=1000       3.862 ms  ops=1000000
+edit_two_rows   disjoint  n=1000       3.346 ms  ops=1000000
+edit_table      random4   n=2000      14.897 ms  ops=4000000
+edit_two_rows   random4   n=2000       7.821 ms  ops=4000000
+edit_table      identical n=2000       9.143 ms  ops=4000000
+edit_two_rows   identical n=2000       7.853 ms  ops=4000000
+edit_table      disjoint  n=2000      20.173 ms  ops=4000000
+edit_two_rows   disjoint  n=2000      16.650 ms  ops=4000000
+edit_table      random4   n=4000      62.872 ms  ops=16000000
+edit_two_rows   random4   n=4000      30.721 ms  ops=16000000
+edit_table      identical n=4000      67.312 ms  ops=16000000
+edit_two_rows   identical n=4000      30.981 ms  ops=16000000
+edit_table      disjoint  n=4000      80.648 ms  ops=16000000
+edit_two_rows   disjoint  n=4000      53.351 ms  ops=16000000
+search_naive  random26     n=50000    m=100      0.132 ms  cmp=52002
+search_kmp    random26     n=50000    m=100      0.120 ms  cmp=52121
+search_naive  dna4         n=50000    m=100      0.274 ms  cmp=66205
+search_kmp    dna4         n=50000    m=100      0.285 ms  cmp=61794
+search_naive  log_lines    n=50000    m=22       0.126 ms  cmp=58701
+search_kmp    log_lines    n=50000    m=22       0.112 ms  cmp=50788
+search_naive  best_nomatch n=50000    m=100      0.099 ms  cmp=49901
+search_kmp    best_nomatch n=50000    m=100      0.085 ms  cmp=50099
+search_naive  worst_aaab   n=50000    m=100      5.766 ms  cmp=4990100
+search_kmp    worst_aaab   n=50000    m=100      0.243 ms  cmp=100098
+search_naive  all_match    n=50000    m=100      5.767 ms  cmp=4990100
+search_kmp    all_match    n=50000    m=100      0.712 ms  cmp=50099
+search_naive  random26     n=100000   m=100      0.458 ms  cmp=103826
+search_kmp    random26     n=100000   m=100      0.379 ms  cmp=103892
+search_naive  dna4         n=100000   m=100      0.763 ms  cmp=133277
+search_kmp    dna4         n=100000   m=100      0.691 ms  cmp=123486
+search_naive  log_lines    n=100000   m=22       0.470 ms  cmp=116331
+search_kmp    log_lines    n=100000   m=22       0.358 ms  cmp=101507
+search_naive  best_nomatch n=100000   m=100      0.387 ms  cmp=99901
+search_kmp    best_nomatch n=100000   m=100      0.332 ms  cmp=100099
+search_naive  worst_aaab   n=100000   m=100     19.711 ms  cmp=9990100
+search_kmp    worst_aaab   n=100000   m=100      0.254 ms  cmp=200098
+search_naive  all_match    n=100000   m=100      8.160 ms  cmp=9990100
+search_kmp    all_match    n=100000   m=100      1.111 ms  cmp=100099
+search_naive  random26     n=200000   m=100      0.527 ms  cmp=207859
+search_kmp    random26     n=200000   m=100      0.484 ms  cmp=207751
+search_naive  dna4         n=200000   m=100      1.148 ms  cmp=266365
+search_kmp    dna4         n=200000   m=100      1.126 ms  cmp=246680
+search_naive  log_lines    n=200000   m=22       0.510 ms  cmp=233761
+search_kmp    log_lines    n=200000   m=22       0.455 ms  cmp=202968
+search_naive  best_nomatch n=200000   m=100      0.411 ms  cmp=199901
+search_kmp    best_nomatch n=200000   m=100      0.349 ms  cmp=200099
+search_naive  worst_aaab   n=200000   m=100     27.657 ms  cmp=19990100
+search_kmp    worst_aaab   n=200000   m=100      0.525 ms  cmp=400098
+search_naive  all_match    n=200000   m=100     16.433 ms  cmp=19990100
+search_kmp    all_match    n=200000   m=100      2.293 ms  cmp=200099
+search_naive  random26     n=400000   m=100      1.109 ms  cmp=415921
+search_kmp    random26     n=400000   m=100      0.990 ms  cmp=415542
+search_naive  dna4         n=400000   m=100      2.621 ms  cmp=533261
+search_kmp    dna4         n=400000   m=100      2.538 ms  cmp=499712
+search_naive  log_lines    n=400000   m=22       1.004 ms  cmp=467898
+search_kmp    log_lines    n=400000   m=22       0.890 ms  cmp=405924
+search_naive  best_nomatch n=400000   m=100      0.819 ms  cmp=399901
+search_kmp    best_nomatch n=400000   m=100      0.692 ms  cmp=400099
+search_naive  worst_aaab   n=400000   m=100     33.383 ms  cmp=39990100
+search_kmp    worst_aaab   n=400000   m=100      1.032 ms  cmp=800098
+search_naive  all_match    n=400000   m=100     35.419 ms  cmp=39990100
+search_kmp    all_match    n=400000   m=100      5.341 ms  cmp=400099
+search_naive  random26     n=800000   m=100      2.209 ms  cmp=831912
+search_kmp    random26     n=800000   m=100      1.964 ms  cmp=830903
+search_naive  dna4         n=800000   m=100      5.223 ms  cmp=1066271
+search_kmp    dna4         n=800000   m=100      5.043 ms  cmp=999978
+search_naive  log_lines    n=800000   m=22       2.014 ms  cmp=935769
+search_kmp    log_lines    n=800000   m=22       1.772 ms  cmp=811820
+search_naive  best_nomatch n=800000   m=100      1.839 ms  cmp=799901
+search_kmp    best_nomatch n=800000   m=100      1.401 ms  cmp=800099
+search_naive  worst_aaab   n=800000   m=100     62.680 ms  cmp=79990100
+search_kmp    worst_aaab   n=800000   m=100      2.031 ms  cmp=1600098
+search_naive  all_match    n=800000   m=100     80.673 ms  cmp=79990100
+search_kmp    all_match    n=800000   m=100     10.191 ms  cmp=800099
+search_naive  random26     n=1600000  m=100      4.378 ms  cmp=1663942
+search_kmp    random26     n=1600000  m=100      5.594 ms  cmp=1661614
+search_naive  dna4         n=1600000  m=100      9.532 ms  cmp=2132679
+search_kmp    dna4         n=1600000  m=100      9.072 ms  cmp=1973304
+search_naive  log_lines    n=1600000  m=22       4.370 ms  cmp=1870863
+search_kmp    log_lines    n=1600000  m=22       3.675 ms  cmp=1623669
+search_naive  best_nomatch n=1600000  m=100      3.441 ms  cmp=1599901
+search_kmp    best_nomatch n=1600000  m=100      2.788 ms  cmp=1600099
+search_naive  worst_aaab   n=1600000  m=100    122.927 ms  cmp=159990100
+search_kmp    worst_aaab   n=1600000  m=100      4.098 ms  cmp=3200098
+search_naive  all_match    n=1600000  m=100    207.508 ms  cmp=159990100
+search_kmp    all_match    n=1600000  m=100     53.557 ms  cmp=1600099
+search_naive  worst_aaab   n=400000   m=10       3.275 ms  cmp=3999910
+search_kmp    worst_aaab   n=400000   m=10       1.067 ms  cmp=800008
+search_naive  worst_aaab   n=400000   m=25       7.158 ms  cmp=9999400
+search_kmp    worst_aaab   n=400000   m=25       1.047 ms  cmp=800023
+search_naive  worst_aaab   n=400000   m=50      19.101 ms  cmp=19997550
+search_kmp    worst_aaab   n=400000   m=50       1.036 ms  cmp=800048
+search_naive  worst_aaab   n=400000   m=200     53.889 ms  cmp=79960200
+search_kmp    worst_aaab   n=400000   m=200      1.027 ms  cmp=800198
+search_naive  worst_aaab   n=400000   m=400    101.205 ms  cmp=159840400
+search_kmp    worst_aaab   n=400000   m=400      1.855 ms  cmp=800398
+written results/results.csv
