@@ -1,6 +1,6 @@
 # Assignment 4: City Search & Spell-Check
 
-Taubakabyl Nurlybek's course, *Design and Analysis of Algorithms*. Author: Name Surname, group XX.
+Taubakabyl Nurlybek's course, *Design and Analysis of Algorithms*. Author: Yerzhanov Amanzhol SE-2526.
 
 ## 1. Experiment Design Card
 
