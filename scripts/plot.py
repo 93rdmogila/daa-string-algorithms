@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Draws all plots from results/results.csv into results/plots/. Usage: python3 scripts/plot.py"""
 import csv, os, textwrap
 import matplotlib
