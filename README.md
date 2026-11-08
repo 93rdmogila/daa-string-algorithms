@@ -43,6 +43,3 @@ REPORT.md                    Experiment Design Card, plots, prediction vs result
 
 ## Git
 Work on `main`, final version tagged `v1.0`. GitHub repository: <PUT THE LINK HERE>
-
-## AI use acknowledgement
-This assignment was prepared with the help of an AI assistant (Claude by Anthropic): it produced the code, the tests, the experiment, the plots and the report text, and ran them. I read and checked the code and the results, and I can explain every part of them.
